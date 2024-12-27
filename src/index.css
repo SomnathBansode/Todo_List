@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226, 223, 239);
+}
+/* Hide scrollbars for webkit browsers */
+.todos::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbars for Firefox */
+.todos {
+  scrollbar-width: none;
+}
